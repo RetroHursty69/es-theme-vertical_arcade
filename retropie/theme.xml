@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	</view>
+	<view name="detailed, video">
+                <image name="crtv" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <size>1 1</size>
+                   <path>./_inc/crtv.png</path>
+                </image>
+	</view>
+	<view name="basic">
+                <image name="crtb" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <size>1 1</size>
+                   <path>./_inc/crtb.png</path>
+                </image>
+	</view>		
+
+</theme>
